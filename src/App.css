@@ -1,0 +1,71 @@
+
+.hero {
+  background: linear-gradient(to right, #d00000, #ff4e00);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.hero-logo {
+  height: 90px;
+}
+.tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 26px;
+  background: white;
+  color: #d00000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.cta-button:hover {
+  background: #ffe5e5;
+}
+.services {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff7f7;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+.service-card {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  min-width: 160px;
+}
+.testimonials {
+  background: #fafafa;
+  padding: 50px 20px;
+  text-align: center;
+}
+.testimonial-card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  text-align: left;
+}
+.cta-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
