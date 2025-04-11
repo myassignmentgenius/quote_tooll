@@ -40,7 +40,6 @@ export default function QuoteGenerator() {
   const [extras, setExtras] = useState({
     turnitin: false,
     slides: false,
-    references: false,
   });
 
   const calculateQuote = () => {
