@@ -4,10 +4,10 @@ import React, { useState } from "react";
 export default function QuoteGenerator() {
   // ✅ Editable base prices per word by academic level
   const basePrices = {
-    Diploma: 0.03,
-    Undergraduate: 0.04,
-    Masters: 0.05,
-    PhD: 0.06,
+    Diploma: 0.05,
+    Undergraduate: 0.08,
+    Masters: 0.10,
+    PhD: 0.20,
   };
 
   // ✅ Grade multipliers
