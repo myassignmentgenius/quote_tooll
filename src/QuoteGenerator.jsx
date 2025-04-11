@@ -28,9 +28,8 @@ export default function QuoteGenerator() {
 
   // ✅ Extra options
   const extraPrices = {
-    turnitin: 5,
-    slides: 10,
-    references: 3,
+    turnitin: 50,
+    slides: 50,
   };
 
   const [service, setService] = useState("Assignment");
